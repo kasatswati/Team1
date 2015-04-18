@@ -11,7 +11,7 @@ var express = require('express')
 
 var app = express();
 
-// all environments- revert commit
+// all environments- changed now
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
